@@ -1,0 +1,50 @@
+/* a 1260 desaparece menu nav de header y aparece lista a la derecha
+a 770 desaparece otro en header y luego hero se transforma en una columna y foter se pone en columna
+a 550 el slides se pone en columna */ 
+
+@media screen and (max-width:1400px) {
+    .cabezera-lista{
+        visibility: hidden;
+    }
+    .cabezera-buscar_boton{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .hero-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+    .cabezera-botones-derecho{
+        visibility: hidden;
+
+    
+}
+
+}
+
+@media screen and (max-width:770px) {
+    .slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    padding: 0 36px;}
+
+    .pie{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+    gap: 10px;
+}
+}

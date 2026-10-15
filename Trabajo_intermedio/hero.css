@@ -124,7 +124,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 909.33px;
+    width: auto;
 }
 
 h2{ 
@@ -244,3 +244,12 @@ h2{
     line-height: 1.5;
 }
 
+.modificacion-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--color-textoprincipal);
+    background-color: #ffffff;
+    border-radius:  25px; 
+    width: 100%;
+}
