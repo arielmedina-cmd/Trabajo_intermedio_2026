@@ -1,0 +1,246 @@
+:root{ 
+    --color-fondoprincipal: #000000;
+    --color-fondosecundario: #2D2D2D;
+    --color-fondocuadroheader: #1F1F1F;
+    --color-fondocuadrofooter: #292929;
+    --color-textoprincipal: #ffffff;
+    --color-textosecundario: #000000;
+    --color-lupa: #838383;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color-textoprincipal);
+    text-decoration: none;
+    background-color: var(--color-fondoprincipal);
+    border-style: none;
+}
+
+
+main{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.secciones{
+    max-width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/* trabajamos con la primera seccion*/ 
+
+.section-1{
+    width: 100%;
+}
+
+.hero-box{
+    display: flex;
+    flex-direction: row;
+    padding: 0 36px;
+
+}
+
+.box-izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    flex:1;
+}
+
+.parrafo-superior{
+    font-size: 14px ;
+    font-weight: 400;
+}
+
+.box-izquierda_titulo{
+    font-size: 64px ;
+    font-weight:500;
+
+}
+
+.parrafo-secundario{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.box-izquierda-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-izquierda-boton{
+    font: size 14px; 
+    padding: 10px 25px;
+}
+
+.box-izquierda-boton_izq {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+
+
+.box-derecha{
+    flex: 1;
+}
+
+.box-derecha-imagen{
+    width: 100%;
+}
+
+
+
+
+/* trabajamos con la segunda seccion*/ 
+.cartas{
+    width: 100%;
+    margin-top: 50px;
+}
+.seccion-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.seccion-2_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 909.33px;
+}
+
+h2{ 
+    text-align: center;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.seccion-2-texto_parrafo{
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;    
+}
+
+/* trabajamos con la segunda seccion cartas*/
+
+.slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    height: 546.88px;
+    padding: 0 36px;
+}
+/*organizacion de tamanos de imagenes y de slides*/
+.slide-card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    padding: 8px;
+    flex:1;
+    background-color: var(--color-fondocuadroheader);
+}
+
+
+
+.imagenes{
+    width: 100%;
+}
+
+.slide-card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    padding: 8px;
+    flex:1;
+    background-color: var(--color-fondocuadroheader);
+}
+.slide-card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    padding: 8px;
+    flex:1;
+    background-color: var(--color-fondocuadroheader);
+}
+
+
+/*edicion de los titulos todas juntas*/ 
+
+.slide-card{
+    gap: 10px;
+    height: 100%;
+}
+
+.slide-card h3{
+    font-size: 22px;
+    text-align: start;
+    width: 100%;
+}
+
+.slide-card p{
+    margin: 0 0 8px;
+    text-align: start;
+    width: 100%;
+}
+
+.slide-card i{
+    font-size: 14px;
+    text-align: start;
+    width: 100%;
+}
+
+.slide-card li{
+    font-size: 14px;
+    text-align: start;
+}
+
+.slide-card-button{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+.slide-card_texto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start ;
+    padding: 0 12px 12px;
+}
+
+.slide-card_texto li{
+    line-height: 20px;
+}
+
+.slide-card_texto ul {
+    line-height: 1.5;
+}
+

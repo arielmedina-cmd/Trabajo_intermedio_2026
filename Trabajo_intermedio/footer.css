@@ -1,0 +1,89 @@
+:root{ 
+    --color-fondoprincipal: #000000;
+    --color-fondosecundario: #2D2D2D;
+    --color-fondocuadroheader: #1F1F1F;
+    --color-fondocuadrofooter: #292929;
+    --color-textoprincipal: #ffffff;
+    --color-textosecundario: #000000;
+    --color-lupa: #838383;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color-textoprincipal);
+    text-decoration: none;
+    background-color: var(--color-fondoprincipal);
+    border-style: none;
+}
+
+
+footer{
+    width: 100%;
+}
+
+.pie{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.pie_logos-izquierda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo_pie{
+    color: var(--color-textoprincipal);
+}
+
+.texto-central_texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 15px;
+}
+
+.texto-central_ancla{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.pie_texto-derecha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.pie-texto-derecha_boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    height: 10px;
+    padding: 15px;
+}
+
+.pie-texto-derecha_idioma{
+    font-size: 14px ;
+}
+
+.pie-texto-derecha_lugar{
+    font-size: 14px;
+    color: var(--color-fondosecundario);
+}
+
+
+
